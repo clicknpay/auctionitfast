@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Auction it!</title>
+<link rel="stylesheet" type="text/css" href="css/style.one.css" />
+<style>
+
+    .container { 
+        width:600px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    
+    }
+    .nav li{
+        display: inline;
+    }
+  
+</style>
+</head>
+<body>
+<div class="container">
+    <header>
+     <h1>Auction It Example</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="http://auctionitfast.com">Auction it Fast</a></li>
+                <li><a href="http://aifbid.com">AIF Bid</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+     <hgroup>
+         <h2>Timer Load Page</h2>
+            <h3>This example demonstrates how the timer is loaded into a page.</h3>
+        </hgroup>
+        <article>
+            
+         <p>NOTE: Timer will not work without AIF_Timer.js which is proprietary and not included.</p>
+         
+            <div id="AIF" class="aif_wrapper">
+            <div id="AIF_AUCTION" data-aif-id="0" class="aif_content">
+
+            <div id="AIF_title">Auction Title</div>
+            <div id="AIF_sub_title">starting soon</div>
+            <div id="AIF_retail">$0.00</div>
+            <div id="AIF_img"><img src="logo2.png" height="100"></div>
+            <div id="AIF_timer">00:00:00</div>
+            <div id="AIF_price" data-last-value="0">$0.00</div>
+            <div id="AIF_user" data-user-id="0" data-user-name="0" data-high-bidder="0">please login</div>
+            <div id="AIF_button" class="AIF_button1"></div>
+            <div id="AIF_cp"></div>
+
+            </div>
+            </div>         
+         
+        </article>
+    </section>
+    <footer>
+     <p>Auction it Fast! Penny Auction Widget</p>
+    </footer>
+</div>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/d4985969a109678c57203e7df55eed47.js"></script>
+    <script type="text/javascript">
+        (function($){ initAIF_V1('d4985969a109678c57203e7df55eed47') })(jQuery);
+        $(".nav a[href^='http://']").attr("target","_blank");
+    </script>
+</body>
+</html>

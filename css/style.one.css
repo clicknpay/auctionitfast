@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* === [ auction wrapper ] === */
+.aif_wrapper { 
+
+	/* === [ background style ] === */
+
+	background-image: url(../templates/1/190x280.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size: 100% 100%;
+        
+ /*	=== [ remove with install ] === */        
+        margin-left: auto;
+        margin-right: auto;
+	
+ /*	=== [ div wrapper ] === */
+	width:190px;
+	height:280px;
+	
+}
+
+/* === [ auction content ] === */
+.aif_content { 
+
+	margin-left: 2px;
+	font-family:Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+	font-size:1.0em;
+	padding:8px;
+	text-align:center;	
+	
+}
+
+
+/* === [ title ] === */
+#AIF_title {
+	
+	max-height:30px;
+	margin-top:2px;
+        height:auto !important;	
+	height:30px;
+	color:#009;
+	font-size:1.4em; /* default = 0.8em */
+	display:block;
+	cursor: pointer;
+
+}
+
+#AIF_sub_title {
+	
+	max-height:30px;
+        height:auto !important;	
+	height:30px;
+	color:#009;
+	font-size:0.8em;
+	display:block;
+
+}
+
+/* === [ retail ] === */
+#AIF_retail {
+	
+	padding-top:8px;
+	height:20px;
+	color:#000;
+	font-size:0.8em; /* default = 0.6em */
+	display:block;
+
+}
+
+
+/* === [ image ] === */
+#AIF_img {
+	
+	height:84px;
+	display:block;
+
+}
+
+
+/* === [ auction timer ] === */
+#AIF_timer {
+	
+	max-height:40px;
+        height:auto !important;
+	height:40px;
+	color:#009;
+	font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
+	font-size:2.0em;
+	display:block;
+        
+        margin-top:20px; /* remove */
+
+}
+
+
+/* === [ auction price ] === */
+#AIF_price {
+	
+	height:36px;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:1.6em;
+	display:block;
+
+}
+
+/* === [ auction user ] === */
+#AIF_user {
+
+	height:16px;
+	color:#009;
+	font-size:0.6em;
+	display:block;
+	padding-bottom:6px;
+	cursor: pointer;
+
+}
+
+
+/* === [ auction button ] === */
+.AIF_button1 {
+
+	background: url(../templates/1/button.png) no-repeat 0 0;
+	width: 121px;
+	height: 41px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	bottom:-10px;
+	cursor: pointer;
+
+}
+
+.AIF_button1:hover { background-position: 0 -41px; }
+.AIF_button1:active { background-position: 0 -82px; }
+
+
+.AIF_button2 {
+
+	background: url(../templates/1/button2.png) no-repeat 0 0;
+	width: 121px;
+	height: 41px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	bottom:-10px;
+	cursor: pointer;
+
+}
+
+.AIF_button2:hover { background-position: 0 -41px; }
+.AIF_button2:active { background-position: 0 -82px; }
+
+/* === [ auction button ] === */
+
+
+/* === [ auction control panel ] === */
+#AIF_cp {
+
+	height:16px;
+	color:#009;
+	font-size:0.6em;
+	display:block;
+	padding-bottom:6px;
+
+}
+
+/* === [ auction login ] === */
+#AIF_login {
+
+	margin-left:-8px;
+	text-align:center;
+	padding:6px 2px 0px 2px;
+	border:1px solid;
+	border-color:green;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	width:174px;
+	height:98px;
+	background-color:#FFFFFF;
+	position:relative;
+	display:none;
+
+}
+
+#AIF_login_field {
+	width:168px;
+	padding:2px;
+}
+
+#AIF_user_name {
+    border: 1px solid #006;
+    background: #ffc;
+}
+
+#AIF_user_name:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+
+#AIF_password {
+    border: 1px solid #006;
+    background: #ffc;
+}
+
+#AIF_password:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+
+#AIF_login_submit {
+	
+	padding:2px 6px 2px 6px;
+  
+}
+
+#AIF_close {
+	
+	margin-right: 4px;
+	padding-bottom: 4px;
+	text-align:right;
+	float:right;
+	cursor: pointer;
+	width:50px;
+	  
+}
+
+#AIF_register {
+	
+	margin-left: 4px;
+	padding-bottom: 4px;
+	text-align:left;
+	cursor: pointer;
+	float:left;
+	width:50px;
+	  
+}
+
+#AIF_buy {
+	
+	margin-right: 4px;
+	padding-bottom: 4px;
+	text-align:right;
+	cursor: pointer;
+	  
+}
+/* === [ auction login ] === */
+
+/* === [ auction user stats ] === */
+
+
+#AIF_stats {
+	
+	text-align:left;
+	width:168px;
+	padding:2px;
+}
+
+#AIF_stats span {
+	
+	color:#F00;
+}
+
+/* === [ auction user stats ] === */
+
+
+/* === [ auction control panel ] === */
+
+/* === [ auction modal window ] === */
+    #mask{ 
+        position:absolute; /* important */
+        top:0px; /* start from top */
+        left:0px; /* start from left */
+        height:100%; /* cover the whole page */
+        width:100%;  /* cover the whole page */
+        display:none; /* don't show it '*/          
+        
+        /* styling bellow */
+        background-color:black; 
+    }
+    
+    .modal_window{
+        position:absolute; /* important so we can position it on center later */
+        display:none; /* don't show it */
+        
+        /* styling bellow */
+        color:white;
+    }
+    
+    /* style a specific modal window  */
+    #modal_window{
+        padding:50px;
+        border:1px solid gray;
+        background: black;
+        color:black;
+    }
